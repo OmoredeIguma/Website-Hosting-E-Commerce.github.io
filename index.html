@@ -80,7 +80,7 @@
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      This visualization provides a clear breakdown of users by age category. It helps identify which age groups form the largest segments of the customer base, guiding tailored marketing and engagement strategies.
+     50% of the consumer were aged 30-39 which constitued the majority, while 33.4% were aged 20-29 and 16.6% were aged 40-49.
     </p>
     <p>
       Understanding age distribution can also be useful when evaluating user preferences, purchasing power, and responsiveness to promotions, ensuring age-appropriate product offerings and messaging.
@@ -173,10 +173,7 @@
     <div class="writeup">
       <h2>Summary</h2>
       <p>
-        This visualization displays the distribution of customers by gender. It's useful for understanding gender balance within the dataset, and can help tailor marketing strategies and product recommendations accordingly.
-      </p>
-      <p>
-        Significant skew in gender representation may warrant further exploration of potential biases or segmentation opportunities.
+        This visualization displays the distribution of customers by gender. The gender distribution was similar, 50% male and 50% female participants.
       </p>
     </div>
   
@@ -266,10 +263,7 @@
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      This visualization provides a breakdown of customers by membership type (e.g., Bronze, Silver, Gold). It helps assess the distribution of loyalty levels within the customer base.
-    </p>
-    <p>
-      Analyzing trends by membership type can inform targeted retention strategies, reward programs, and premium service offers.
+      This visualization provides a breakdown of customers by membership type (e.g., Bronze, Silver, Gold). The customers were evenly split among Bronze (33.1%), Silver (33.4%), and Gold (33.4%).
     </p>
   </div>
 
@@ -359,10 +353,7 @@
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      This visualization displays customer satisfaction levels categorized as Satisfied, Neutral, or Unsatisfied. It's useful for identifying overall sentiment and gauging the impact of service or product changes.
-    </p>
-    <p>
-      Insights from this chart can guide improvements in customer experience strategies and highlight areas where service recovery may be needed.
+      Satisfaction levels were distributed as follows: 36.3% of customers reported being satisfied, 30.6% were neutral, and 33.1% were unsatisfied. Overall, the customers were satisfied, although due to the high increase in dissatisfaction, careful considerations need to be taken to address this.
     </p>
   </div>
 
@@ -455,7 +446,7 @@
       The K-Means Clustering visual identifies distinct customer segments based on their total spend, age, and number of items purchased. Each cluster represents customers with similar purchasing behaviors.
     </p>
     <p>
-      This segmentation allows for more targeted marketing strategies. For example, one cluster might consist of younger, high-spending customers, while another may include older customers with moderate spending habits. These insights help personalize communication and improve retention.
+      Cluster 1 is characterized by the older customers with an average age of 35, with the lowest number of items purchased (10), and lowest number of money spend $611.5. While cluster 2 is characterized by younger customers with an average age of 30, with the highest number of items purchased (18), and the highest amount of money spent ($1311.1)
     </p>
   </div>
 
@@ -542,8 +533,12 @@
 
   <div class="writeup">
     <h2>Summary</h2>
-    <p>This visual explores gender distribution across membership types. If we observe that certain genders dominate specific tiers (e.g. more males in Bronze, more females in Gold), it may reflect differences in how membership perks are perceived or accessed.</p>
-    <p>These insights can inform personalized marketing strategies — such as tailoring communications or benefits to align with demographic trends and drive engagement across all membership levels.</p>
+    <p>
+      From the crosstabulation, it was found that males were highly overrepresented in the silver membership category (116) and completely absent from the bronze category (0). Conversely, females were significantly overrepresented in the bronze category (116) and almost absent from the silver category (1).
+    </p>
+    <p>
+      No significant deviation was observed in the gold membership category (59 for males, 58), indicating a roughly equal distribution of gold membership across genders.
+    </p>
   </div>
 
 </body>
@@ -633,10 +628,10 @@
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      This visualization breaks down total spend across different age categories. We can observe which age groups are the highest contributors to revenue, providing a clear direction for targeted marketing or loyalty programs.
+      From the ANOVA conducted, there was a statistically significant difference between the different age group. Customers aged 20-29 spent significantly more ($1156.29) than those aged 30–39 ($720.90), while those aged 40-49 spent the least at $597.
     </p>
     <p>
-      If, for example, the 30–39 age group leads in total spend, campaigns can be designed to retain their interest while exploring how to encourage spending in younger or older demographics.
+      Thus we can conclude that younger customers tends to spend more than older customers. Which was also confirmed by the K-Means Cluster analysis.
     </p>
   </div>
 
@@ -827,7 +822,7 @@
       This chart compares total customer spending based on whether a discount was applied. It helps assess whether discount strategies are leading to higher revenue or simply attracting lower-spending customers.
     </p>
     <p>
-      From this visualization, we can observe whether discounts significantly increase sales volume or not. If total spend is similar across both groups, it may be worth re-evaluating how discounts are used.
+      From this visualization, we can observe that there was no significant difference in total spending for customers regardless of if they got a discount or not. Since total spend is similar across both groups, it may be worth re-evaluating how discounts are used.
     </p>
   </div>
 
@@ -919,7 +914,7 @@
       This visualization explores the relationship between the number of days since a customer's last purchase and their membership type (Bronze, Silver, or Gold). The correlation helps identify which member segments are more engaged or more likely to churn.
     </p>
     <p>
-      For instance, if Gold members consistently show fewer days since last purchase, they may represent a highly active segment worth prioritizing in loyalty efforts.
+      Gold members consistently showed fewer days since last purchase, while Bronze and Silver members are more likely to have large gaps in the number of days between purchases. It is clear that Gold members due to their high recency rate, represents a highly active segment worth prioritizing in loyalty efforts. Though other membership tiers should also be given priorities and to address their low recency rate.
     </p>
   </div>
 
