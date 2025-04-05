@@ -92,9 +92,6 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
     <p>
       50% of the consumers were aged 30-39, which constituted the majority, while 33.4% were aged 20-29, and 16.6% were aged 40-49.
     </p>
-    <p>
-      Understanding age distribution can also be useful when evaluating user preferences, purchasing power, and responsiveness to promotions, ensuring age-appropriate product offerings and messaging.
-    </p>
   </div>
 
 </body>
@@ -183,7 +180,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
     <div class="writeup">
       <h2>Summary</h2>
       <p>
-        This visualization displays the distribution of customers by gender. The gender distribution was similar, 50% male and 50% female participants.
+        The gender distribution was similar, 50% male and 50% female consumers.
       </p>
     </div>
   
@@ -273,7 +270,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      This visualization provides a breakdown of customers by membership type (e.g., Bronze, Silver, Gold). The customers were evenly split among Bronze (33.1%), Silver (33.4%), and Gold (33.4%).
+      The customers were evenly split among Bronze (33.1%), Silver (33.4%), and Gold (33.4%).
     </p>
   </div>
 
@@ -363,7 +360,8 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      Satisfaction levels were distributed as follows: 36.3% of customers reported being satisfied, 30.6% were neutral, and 33.1% were unsatisfied. Overall, the customers were satisfied, although due to the high increase in dissatisfaction, careful considerations need to be taken to address this.
+      Satisfaction levels were distributed as follows: 36.3% of customers reported being satisfied, 30.6% were neutral, and 33.1% were unsatisfied. 
+      Overall, the customers were satisfied; however, due to the high increase in dissatisfaction, careful consideration needs to be given to addressing this issue.
     </p>
   </div>
 
@@ -453,10 +451,12 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      The K-Means Clustering visual identifies distinct customer segments based on their total spend, age, and number of items purchased. Each cluster represents customers with similar purchasing behaviours.
+      The K-Means Clustering visualization identifies distinct customer segments based on their total spend, age, and the number of items they purchase. 
+      Each cluster represents customers with similar purchasing behaviours.
     </p>
     <p>
-      Cluster 1 is characterized by the older customers with an average age of 35, with the lowest number of items purchased (10), and the lowest amount of money spent, $611.5. While cluster 2 is characterized by younger customers with an average age of 30, with the highest number of items purchased (18), and the highest amount of money spent ($1311.1)
+      Cluster 1 is characterized by the older customers with an average age of 35, with the lowest number of items purchased (10), and the lowest amount of money spent, $611.5. 
+      While cluster 2 is characterized by younger customers with an average age of 30, with the highest number of items purchased (18), and the highest amount of money spent ($1311.1).
     </p>
   </div>
 
@@ -506,7 +506,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
 </head>
 <body>
 
-  <h1>Gender by Membership Type</h1>
+  <h1>Chi-Square Test for Independence (Gender by Membership Type)</h1>
 
   <div class='tableauPlaceholder' id='viz1743773301937' style='position: relative'>
     <noscript>
@@ -596,7 +596,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
 </head>
 <body>
 
-  <h1>Total Spend by Age Category</h1>
+  <h1>Analysis of Variance (Total Spend by Age Category)</h1>
 
   <!-- Tableau Embed -->
   <div class='tableauPlaceholder' id='viz1743773761130' style='position: relative'>
@@ -638,10 +638,10 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      From the ANOVA conducted, there was a statistically significant difference between the different age groups. Customers aged 20-29 spent significantly more ($1156.29) than those aged 30–39 ($720.90), while those aged 40-49 spent the least at $597.
+      There was a statistically significant difference between the different age groups. Customers aged 20-29 spent significantly more ($1156.29) than those aged 30–39 ($720.90), while those aged 40-49 spent the least at $597.
     </p>
     <p>
-      Thus, we can conclude that younger customers tend to spend more than older customers. This was also confirmed by the K-Means Cluster analysis.
+      Thus, we can conclude that younger customers tend to spend more than older customers.
     </p>
   </div>
 
@@ -690,7 +690,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
 </head>
 <body>
 
-  <h1>Satisfaction Level by Membership Type</h1>
+  <h1>Chi-Square Test for Independence (Satisfaction Level by Membership Type)</h1>
 
   <div class='tableauPlaceholder' id='viz1743772679529' style='position: relative'>
     <noscript>
@@ -733,14 +733,14 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      The visualization above illustrates the relationship between customer satisfaction levels and membership types.
+      The chart above illustrates the relationship between customer satisfaction levels and membership types.
       Gold members tend to report higher satisfaction levels, suggesting that premium services or perks
       associated with Gold membership may positively impact customer experience.
     </p>
     <p>
       On the other hand, Bronze members show a relatively higher percentage of unsatisfied responses, indicating a possible
       gap in perceived value or service quality at this tier. This insight can guide future strategies for improving
-      experiences for entry-level member, or encouraging upgrades to higher membership tiers.
+      experiences for entry-level members or encouraging upgrades to higher membership tiers.
     </p>
   </div>
 
@@ -788,7 +788,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
 </head>
 <body>
 
-  <h1>Total Spend by Discount Applied</h1>
+  <h1>Independent Samples T-Test (Total Spend by Discount Applied)</h1>
 
   <!-- Tableau Embed -->
   <div class='tableauPlaceholder' id='viz1743773951023' style='position: relative'>
@@ -829,7 +829,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      This chart compares total customer spending based on whether a discount was applied. It helps assess whether discount strategies are leading to higher revenue or simply attracting lower-spending customers.
+      The box and whisker plot above compares total customer spending based on whether a discount was applied. It helps assess whether discount strategies are leading to higher revenue or simply attracting lower-spending customers.
     </p>
     <p>
       From this visualization, we can observe that there was no significant difference in total spending for customers regardless of whether they got a discount or not. Since total spend is similar across both groups, it may be worth re-evaluating how discounts are used.
@@ -880,7 +880,7 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
 </head>
 <body>
 
-  <h1>Correlation Between Days Since Last Purchase and Membership Type</h1>
+  <h1>Spearman's Rank Correlation Between Days Since Last Purchase and Membership Type</h1>
 
   <!-- Tableau Embed -->
   <div class='tableauPlaceholder' id='viz1743774675910' style='position: relative'>
@@ -921,7 +921,8 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
   <div class="writeup">
     <h2>Summary</h2>
     <p>
-      This visualization explores the relationship between the number of days since a customer's last purchase and their membership type (Bronze, Silver, or Gold). The correlation helps identify which member segments are more engaged or more likely to churn.
+      This visualization explores the relationship between the number of days since a customer's last purchase and their membership type (Bronze, Silver, or Gold). 
+      The correlation helps to identify which member segments are more engaged or more likely to churn.
     </p>
     <p>
       Gold members consistently showed fewer days since last purchase, while Bronze and Silver members are more likely to have large gaps in the number of days between purchases. It is clear that Gold members, due to their high recency rate, represent a highly active segment worth prioritizing in loyalty efforts. Though other membership tiers should also be given priorities, and to address their low recency rate.
@@ -930,3 +931,5 @@ This project explores the E-commerce Customer Behaviour Dataset provided by <a h
 
 </body>
 </html>
+
+  
